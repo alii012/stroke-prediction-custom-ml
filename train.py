@@ -50,7 +50,6 @@ X_test[feature_to_scale] = (X_test[feature_to_scale] - mean) / std
 
 
 def sigmoid(z):
-    z = np.clip(z, -500, 500)
     s = 1 / (1 + np.exp(-z))
     return s
 
@@ -192,3 +191,4 @@ model_params = {
 np.savez('stroke_model_v1.npz', **model_params)
 
 print("Model saved successfully as 'stroke_model_v1.npz'!")
+
