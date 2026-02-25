@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-from app import predict, prediction, sigmoid
 
 
 # Load your saved model
@@ -55,4 +54,5 @@ if st.button("Predict"):
     if prob >= 0.3:
         st.error("⚠️ HIGH RISK: Based on the model's threshold of 0.3")
     else:
+
         st.success("✅ LOW RISK")
