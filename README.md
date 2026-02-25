@@ -1,6 +1,6 @@
 # My Stroke Prediction Project (Custom ML)
 
-### Check out the live app here: [YOUR LINK HERE]
+### Check out the live app here: [https://stroke-prediction-custom-ml-b2h3jd4q3qfw6mrwm42xbx.streamlit.app/]
 
 ## What is this?
 I built this project to see if I could predict stroke risk using a dataset from Kaggle. Instead of just using a library like Scikit-Learn to do all the work, I decided to build the Logistic Regression model from scratch using NumPy. 
